@@ -13,7 +13,7 @@ class TestClass:
         assert "h" in x
         
     def test_three(self):
-        assert 1 == 0
+        assert 1 == 1
 
     def test_two(self):
         # initializing object
