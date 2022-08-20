@@ -1,21 +1,22 @@
-# content of test_class.py
-import pytest
+"""
+Exemple file for pytest assert
+"""
 
-
-# declaring class
 class GfG:
+    """other class to use in pytest"""
+
     name = "GeeksforGeeks"
     age = 24
 
 class TestClass:
+    """Main test class"""
+
     def test_one(self):
+        """func 1"""
         x = "this"
         assert "h" in x
-        
-    def test_three(self):
-        assert 1 == 1
 
     def test_two(self):
-        # initializing object
+        """func 2"""
         obj = GfG()
         assert hasattr(obj, "age")
